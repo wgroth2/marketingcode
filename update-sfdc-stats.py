@@ -12,7 +12,7 @@ def loginsf():
    session = requests.Session()
    # manipulate the session instance (optional)
    try:
-      sf = Salesforce(username='bill.roth@secondfront.com', password='FOOO', security_token='WOOBA', session=session)
+      sf = Salesforce(username='someemail', password='FOOO', security_token='WOOBA', session=session)
    except Exception as e:
       print(e)
       sys.exit(1)
